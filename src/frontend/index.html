@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strawberry GraphiQL</title>
+  <link rel="icon" href="data:image/svg+xml,
+        <svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>
+            <!-- Strawberry Emoji as a HTML Entity (hex)  -->
+            <text y=%22.9em%22 font-size=%2280%22>&#x1f353;</text>
+        </svg>" />
+  <style>
+    body {
+      height: 100%;
+      margin: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    #root {
+      height: 100vh;
+      display: flex;
+    }
+
+    .docExplorerHide {
+      display: none;
+    }
+
+    .doc-explorer-contents {
+      overflow-y: hidden !important;
+    }
+
+    .docExplorerWrap {
+      width: unset !important;
+      min-width: unset !important;
+    }
+
+    .graphiql-explorer-actions select {
+      margin-left: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

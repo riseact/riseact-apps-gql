@@ -1,0 +1,2 @@
+name = "graphql-explorer"
+dev_commands = [ "yarn dev",]
